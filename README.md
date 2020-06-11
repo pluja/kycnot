@@ -35,4 +35,6 @@ Contributions are very welcome. Any suggestion, recomendation, correction, idea.
 
 The webpage is just HTML and CSS, I really try to avoid JavaScript due to all of it's privacy implications so anything related to JS will likely be declined, but you can suggest anyways.
 
+I'll be setting up a self-hosted Matomo instance for analytics (Not only for this site, but for several personal projects).
+
 FYI: I'm not a web developer, so don't expect web design to be any great. 
