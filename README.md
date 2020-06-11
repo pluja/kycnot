@@ -15,7 +15,7 @@ All exchanges have some icons along them, this is what they mean:
 * 👁 - The service does not respect your privacy. Eg. Records your IP, requests personal data...
 * ✔ - YES
 * ❌ - NO
-* ⚠ - Considerations (Usually implies NO)
+* ⚠ - Considerations - Hover to know more. (Usually implies NO)
 * 👤 - Service needs an account
 * 🎭 - Hidden (Tor) service is available
 
