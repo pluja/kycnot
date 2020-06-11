@@ -20,3 +20,11 @@ With KYCNOT.ME i want to make it easier for people to buy, exchange and trade cr
 
 ### Why only Bitcoin and Monero
 Bitcoin because is the biggest, with the most market cap, most adoption and most used among all cryptos. Monero because it is the true digital money, the only one that preserves privacy by design and brings true fungibility.
+
+## Contribute
+
+Contributions are very welcome. Any suggestion, recomendation, correction, idea... Just open a Github issue and I'll fix it as quick as I can.
+
+The webpage is just HTML and CSS, I really try to avoid JavaScript due to all of it's privacy implications so anything related to JS will likely be declined, but you can suggest anyways.
+
+FYI: I'm not a web developer, so don't expect web design to be any great. 
