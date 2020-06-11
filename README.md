@@ -9,6 +9,7 @@ kycnot.me is a simple yet useful webpage. It lists trusted Exchanges where you c
 * **:cross_icon:** - NO
 * **:warning_icon:** - Considerations (Usually implies NO)
 * **:usercard_icon:** - Service needs an account
+* **:mask_icon:** - Hidden (Tor) service is available
 
 ## Why this
 Cryptocurrencies are meant to make a change on the way we pay and interchange goods between us. Are made to untie the dependancy between the users (customers) and the centralized entities that are in control (law enforced) of our economy (eg. Banks, FED, etc.).
