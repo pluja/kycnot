@@ -15,16 +15,16 @@ All exchanges have some icons along them, this is what they mean:
 * 👁 - The service does not respect your privacy. Eg. Records your IP, requests personal data...
 * ✔ - YES
 * ❌ - NO
-* ⚠ - Considerations (Usually implies NO)
+* ⚠ - Considerations - Hover to know more. (Usually implies NO)
 * 👤 - Service needs an account
 * 🎭 - Hidden (Tor) service is available
 
 ## Why this
-Cryptocurrencies are meant to make a change on the way we pay and interchange goods between us. Are made to untie the dependancy between the users (customers) and the centralized entities that are in control (law enforced) of our economy (eg. Banks, FED, etc.).
+Cryptocurrencies are meant to make a change on the way we pay and exchange goods. They are made to untie the dependency between the users (customers) and the centralized entities that are in control (law enforced) of our economy (eg. Banks, FED, etc.).
 
-KYC and AML exchanges are the most common nowadays, they act excactly like a bank. You (usally) don't own any private key, so the funds aren't fully yours. Also they require you to identify yourself (eg. photo of your ID). All of this together goes against the most valuable benefits of cryptocurrencies.
+KYC and AML exchanges are the most common nowadays, they act excactly like a bank. You (usally) don't own any private key, so the funds aren't fully yours, they custody your keys (if there are any keys that belong to you). They also require you to identify yourself (eg. photo of your ID). All of this together goes against the most valuable benefits of cryptocurrencies.
 
-With KYCNOT.ME i want to make it easier for people to buy, exchange and trade cryptos without needing to identify themselves, and preserving the decentralized and self-governed essence of Cryptocurrencies.
+With KYCNOT.ME I want to make it easier for people to find trustworthy ways to buy, exchange and trade cryptos without needing to identify themselves, and preserving the decentralized and self-governed essence of Cryptocurrencies.
 
 ### Why only Bitcoin and Monero
 Bitcoin because is the biggest, with the most market cap, most adoption and most used among all cryptos. Monero because it is the true digital money, the only one that preserves privacy by design and brings true fungibility.
