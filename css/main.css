@@ -8,19 +8,31 @@
   color: white;
 }
 
-.fa-check{
+.las{
+  font-size: 17px;
+}
+
+.why{
+  color: white;
+}
+
+.la-check{
   color: #2eb134;
 }
 
-.fa-shield{
-  color: #4158d0;
+.la-shield-alt{
+  color: #008507;
 }
 
-.fa-remove{
+.la-mask{
+  color: #c850c0;
+}
+
+.la-times{
   color: #c92525;
 }
 
-.fa-exclamation-circle{
+.la-exclamation-triangle{
   color: #df921e;
 }
 
