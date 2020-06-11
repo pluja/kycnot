@@ -1,6 +1,12 @@
 # [kycnot.me](https://kycnot.me)
 kycnot.me is a simple yet useful webpage. It lists trusted Exchanges where you can buy / trade Bitcoin or Monero. You can easily compare and decide what's best for you.
 
+**CONTENTS**
+* [Legend of icons](#legend-of-icons)
+* [Why this](#why-this)
+  * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
+* [Contribute](#contribute)
+
 ## Legend of icons
 * **:handshake_icon:** - The service is Peer-to-Peer
 * **:shield_icon:** - Verified: The service has been tested by myself or by several trusted users.
