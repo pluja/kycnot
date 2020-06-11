@@ -1,15 +1,28 @@
 /*///SELF///*/
+@font-face {
+  font-family: Worksans;
+  src:url('../fonts/WorkSans/WorkSans-Medium.ttf');
+}
+
 .title-container{
   text-align: center;
 }
 
 .title{
-  font-family: Montserrat-Regular;
+  font-family: Worksans;
   color: white;
+}
+
+.title-container{
+  padding: .6em;
 }
 
 .las{
   font-size: 17px;
+}
+
+.repo{
+  color: white;
 }
 
 .why{
@@ -38,6 +51,7 @@
 
 .donate{
   font-family: monospace;
+  color: #999999;
 }
 
 .CellWithComment{
@@ -168,11 +182,18 @@ iframe {
 .container-table100 {
   width: 100%;
   min-height: 100vh;
-  background: #c850c0;
+  background: rgb(0,0,0);
+  background: -moz-linear-gradient(142deg, rgba(0,0,0,1) 24%, rgba(7,1,20,1) 47%, rgba(19,6,47,1) 60%, rgba(48,20,117,1) 80%, rgba(101,45,244,1) 100%);
+  background: -webkit-linear-gradient(142deg, rgba(0,0,0,1) 24%, rgba(7,1,20,1) 47%, rgba(19,6,47,1) 60%, rgba(48,20,117,1) 80%, rgba(101,45,244,1) 100%);
+  background: linear-gradient(142deg, rgba(0,0,0,1) 24%, rgba(7,1,20,1) 47%, rgba(19,6,47,1) 60%, rgba(48,20,117,1) 80%, rgba(101,45,244,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#652df4",GradientType=1);
+  
+  
+  /*background: #c850c0;
   background: -webkit-linear-gradient(45deg, #4158d0, #c850c0);
   background: -o-linear-gradient(45deg, #4158d0, #c850c0);
   background: -moz-linear-gradient(45deg, #4158d0, #c850c0);
-  background: linear-gradient(45deg, #4158d0, #c850c0);
+  background: linear-gradient(45deg, #4158d0, #c850c0);*/
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -252,7 +273,7 @@ tbody tr {
 
 tbody tr:hover {
   color: #555555;
-  background-color: #f5f5f5;
+  background-color: #e6c8e6cb;
   cursor: pointer;
 }
 
