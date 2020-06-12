@@ -35,6 +35,7 @@ I will leave screenshots of the Matomo privacy configuration I have set:
 ![Deletion](images/github_assets/old_data_deletion.png)
 
 ## Contribute
+Suggestions about listing new Exchanges must be commented [here](https://github.com/pluja/kycnot/issues/15)
 
 Contributions are very welcome. Any suggestion, recomendation, correction, idea... Just open a Github issue and I'll fix it as quick as I can.
 
