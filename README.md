@@ -46,7 +46,9 @@ I will leave screenshots of the Matomo privacy configuration I have set:
 
 Contributions are very welcome. Any suggestion, recomendation, correction, idea... Just open a Github issue and I'll fix it as quick as I can.
 
-[The list of changes can be found here](CHANGELOG)
+I want the site to use as little JS as possible, so all suggestion will be evaluated before being added. Also I won't have any backend in the near future, only frontend. I may be adding backend at some point if the project grows.
+
+[The list of changes can be found here](CHANGELOG.md)
 
 I'll be setting up a self-hosted Matomo instance for analytics (Not only for this site, but for several personal projects).
 
