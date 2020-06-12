@@ -38,6 +38,7 @@ Matomo is [completelly open source](https://github.com/matomo-org/matomo), so th
 I want to have analytics for my site as I want to know if it is worth it to continue developing features for it, or if I have to improve certain things. At any moment the analytics data will be sold.
 
 I will leave screenshots of the Matomo privacy configuration I have set:
+
 ![Main config](images/github_assets/matomo_config.png)
 ![Deletion](images/github_assets/old_data_deletion.png)
 
