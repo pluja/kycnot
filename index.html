@@ -20,6 +20,9 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/balloon.css">
+	<link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
+
 <!--===============================================================================================-->
 
 
@@ -61,18 +64,45 @@
 		  </ul>
 		</div>
 	  </nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="legendModalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">Legend - Info</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			</div>
+			<div class="modal-body">
+				<p><i aria-hidden="true" class="las la-shield-alt"></i> - The site has been tested by me or several trusted users</p>
+				<p><i aria-hidden="true" class="las la-link"></i> - The site has a <a href="">custodial wallet</a></p>
+				<p><i aria-hidden="true" class="las la-user-circle"></i> - The site requires the user to create an account</a></p>
+				<p><i aria-hidden="true" class="las la-handshake"></i> - The service is Peer-To-Peer</a></p>
+				<p><i aria-hidden="true" class="las la-eye"></i> - The site may require KYC at some point.</a></p>
+				<p><i aria-hidden="true" class="las la-mask"></i> - The site offers a Tor hidden service.</a></p>
+				<p>-</p>
+				<p><i aria-hidden="true" class="las la-info"></i>You can hover on any icon / service name to learn more.</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		</div>
+	</div>
 	
 	<div class="limiter">
 		<div class="container-table100">
-			<span class="title-container"><h1 class="title"><a class="repo" href="https://github.com/pluja/kycnot"> KYC, NOT ME</a></h1> <p class="donate"><i class="lab la-bitcoin" aria-hidden="true"></i> Donate: 1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L</p><a class="why" href="https://github.com/pluja/kycnot/blob/master/README.md#why-this"><i class="lar la-question-circle"></i> WHY THIS</a></span>
+			<span class="title-container"><h1 class="title"><a class="repo" href="https://github.com/pluja/kycnot"> KYC, NOT ME</a></h1> <p class="donate"><i class="lab la-bitcoin" aria-hidden="true"></i></span> Donate: 1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L</p><a class="why" href="https://github.com/pluja/kycnot/blob/master/README.md#why-this"><i class="lar la-question-circle"></i> WHY THIS</a> <p class="legend" data-toggle="modal" data-target="#legendModal">LEGEND</p></span>
 			<div class="wrap-table100">
 				<div class="table100">
 					<table>
 						<thead>
 							<tr class="table100-head">
 								<th class="column1">NAME</th>
-								<th class="column2">BTC <i class="lab la-bitcoin" aria-hidden="true"></i></th>
-								<th class="column3">XMR <i class="lab la-monero" aria-hidden="true"></i></th>
+								<th class="column2">BTC <i class="lab la-bitcoin" aria-hidden="true"></i></span></th>
+								<th class="column3">XMR <i class="lab la-monero" aria-hidden="true"></i></span></th>
 								<th class="column4">Conditions</th>
 								<th class="column5">Trade</th>
 								<th class="column6">Buy</th>
@@ -81,180 +111,179 @@
 						<tbody>
 								<tr>
 									<td class="column1">
-										<a target="_blank" data-toggle="tooltip" data-placement="top" title="Simple exchange with no KYC." href="https://tradeogre.com/">Tradeogre</a> 
-										<i data-toggle="tooltip" data-placement="top" title="Verified" class="las la-shield-alt" aria-hidden="true"></i>
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+										<a target="_blank" aria-label="Simple exchange with no KYC." data-balloon-length="medium" data-balloon-pos="up" href="https://tradeogre.com/">Tradeogre</a> 
+										<span  data-balloon-length="small" data-balloon-pos="up" aria-label="Verified"><i aria-hidden="true" class="las la-shield-alt"></i></span>
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Account required"><i class="las la-user-circle"></i></span>
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Custodial wallet"><i class="las la-link"></i></span>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
-										<a target="_blank" data-toggle="tooltip" data-placement="top" title="Peer-to-peer exchange. Some sellers may ask for ID verification." href="https://hodlhodl.com/">HodlHodl</a>  
-										<i class="las la-shield-alt" data-toggle="tooltip" data-placement="top" title="Verified" aria-hidden="true"></i> 
-										<i class="las la-handshake" data-toggle="tooltip" data-placement="top" title="P2P" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i></td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+										<a target="_blank" data-balloon-length="medium" data-balloon-pos="up" aria-label="Some sellers may ask for ID verification." href="https://hodlhodl.com/">HodlHodl</a>  
+										<span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up"><i class="las la-shield-alt"  aria-hidden="true"></i></span> 
+										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
+										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
-										<a target="_blank" href="https://localbitcoins.com/" data-toggle="tooltip" data-placement="top" title="P2P Exchange. Some sellers may ask for ID verification.">LocalBitcoins</a>  
-										<i class="las la-shield-alt" data-toggle="tooltip" data-placement="top" title="Verified" aria-hidden="true"></i> 
-										<i class="las la-handshake" data-toggle="tooltip" data-placement="top" title="P2P" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+										<a target="_blank" href="https://localbitcoins.com/" data-balloon-length="medium" data-balloon-pos="up" aria-label="P2P Exchange. Some sellers may ask for ID verification.">LocalBitcoins</a>  
+										<span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up"><i class="las la-shield-alt"  aria-hidden="true"></i></span> 
+										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
+										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
 
 								
 								<tr>
 									<td class="column1">
-										<a target="_blank" href="https://bisq.network/" data-toggle="tooltip" data-placement="top" title="P2P Exchange. Needs installation. Some sellers may ask for ID verification.">Bisq</a>  
-										<i class="las la-shield-alt" data-toggle="tooltip" data-placement="top" title="Verified" aria-hidden="true"></i> 
-										<i class="las la-handshake" data-toggle="tooltip" data-placement="top" title="P2P" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+										<a target="_blank" href="https://bisq.network/" data-balloon-length="medium" data-balloon-pos="up" aria-label="P2P Exchange. Needs installation. Some sellers may ask for ID verification.">Bisq</a>  
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Verified"><i class="las la-shield-alt" aria-hidden="true"></i></span> 
+										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
+										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
 								
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://bitquick.co/">BitQuick</a> 
-										<i class="las la-shield-alt" data-toggle="tooltip" data-placement="top" title="Verified" aria-hidden="true"></i> 
-										<i class="las la-handshake" data-toggle="tooltip" data-placement="top" title="P2P" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+										<span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up"><i class="las la-shield-alt"  aria-hidden="true"></i></span> 
+										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
+										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://binance.com/">Binance</a> 
-										<i class="las la-shield-alt" data-toggle="tooltip" data-placement="top" title="Verified" aria-hidden="true"></i>  
-										<i class="fa fa-eye" data-toggle="tooltip" data-placement="top" title="Some features require KYC" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+										<span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up"><i class="las la-shield-alt"  aria-hidden="true"></i></span>  
+										<i class="las la-eye"  aria-label="Some features require KYC" aria-hidden="true"></i></span> 
+										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
+										<span aria-label="Custodial wallet" data-balloon-length="small" data-balloon-pos="up"><i class="las la-link" ></i>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4 "><i class="las la-exclamation-triangle" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Max 2BTC/24h without KYC"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4 ">
+										<span aria-label="Max 2BTC/24h without KYC" data-balloon-length="small" data-balloon-pos="up">
+											<i class="las la-exclamation-triangle" aria-hidden="true"></i>
+										</span>
+									</td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
-										<a target="_blank" href="https://simpleswap.io/" data-toggle="tooltip" data-placement="top" title="Free from sign up, limits, complications">SimpleSwap</a>
-										<i class="las la-shield-alt" data-toggle="tooltip" data-placement="top" title="Verified" aria-hidden="true"></i>  
+										<a target="_blank" href="https://simpleswap.io/"  aria-label="Free from sign up, limits, complications">SimpleSwap</a>
+										<span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up"><i class="las la-shield-alt"  aria-hidden="true"></i></span>  
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
-										<a target="_blank" href="https://fixedfloat.com/" data-toggle="tooltip" data-placement="top" title="Lightning cryptocurrency exchange">Fixedfloat</a>
+										<a target="_blank" href="https://fixedfloat.com/"  aria-label="Lightning cryptocurrency exchange">Fixedfloat</a>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://localmonero.co/">LocalMonero</a> 
-										<i class="las la-handshake" data-toggle="tooltip" data-placement="top" title="P2P" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
+										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
 									</td>
-									<td class="column2"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://godex.io/">Godex</a>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https//morphtoken.com/">Morphtoken</a>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://changehero.io/">ChangeHero</a>
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Some features require KYC">
+											<i class="fa fa-eye" aria-hidden="true"></i>
+										</span> 
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
-								</tr>
-
-
-								<tr>
-									<td class="column1">
-										<a target="_blank" href="https://paxful.com/">Paxful</a> 
-										<i class="las la-handshake" data-toggle="tooltip" data-placement="top" title="P2P" aria-hidden="true"></i> 
-										<i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Account required" aria-hidden="true"></i>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4 ">
+										<span aria-label="May require KYC if suspicious" data-balloon-length="medium" data-balloon-pos="up">
+											<i class="las la-exclamation-triangle" aria-hidden="true"></i>
+										</span>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-check" aria-hidden="true"></i></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://xchange.me/">xChange.me</a> 
-										<i class="las la-mask" data-toggle="tooltip" data-placement="top" title="Tor mirror available"></i>
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Tor mirror available"><i class="las la-mask"></i></span>
 									</td>
-									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
-									<td class="column5"><i class="las la-check" aria-hidden="true"></i></td>
-									<td class="column6"><i class="las la-times" aria-hidden="true"></i></td>
+									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
+									<td class="column6"><i class="las la-times" aria-hidden="true"></i></span></td>
 								</tr>
 						</tbody>
 					</table>

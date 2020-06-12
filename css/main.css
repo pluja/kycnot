@@ -8,6 +8,10 @@
   text-align: center;
 }
 
+.legend{
+  cursor: pointer;
+}
+
 .title{
   font-family: Worksans;
   color: white;
