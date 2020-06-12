@@ -35,7 +35,11 @@ Actually I have set up the free version of Matomo web analytics. [Matomo](https:
 
 Matomo is [completelly open source](https://github.com/matomo-org/matomo), so the code can be studied. If you have any doubts I encourage you to take a look at Matomo's code and their website.
 
-I want to have analytics for my site as I want to know if it is worth it to continue developing features for it, or if I have to improve certain things. At any moment the analytics data will be sold. 
+I want to have analytics for my site as I want to know if it is worth it to continue developing features for it, or if I have to improve certain things. At any moment the analytics data will be sold.
+
+I will leave screenshots of the Matomo privacy configuration I have set:
+![Main config](images/github_assets/matomo_config.png)
+![Deletion](images/github_assets/old_data_deletion.png)
 
 ## Contribute
 
