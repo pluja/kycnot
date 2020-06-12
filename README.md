@@ -5,6 +5,7 @@ kycnot.me is a simple yet useful webpage. It lists trusted Exchanges where you c
 * [Legend of icons](#legend-of-icons)
 * [Why this](#why-this)
   * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
+  * [Website has trackers?](#website-has-trackers)
 * [Contribute](#contribute)
 
 ## Legend of icons
@@ -28,6 +29,13 @@ With KYCNOT.ME I want to make it easier for people to find trustworthy ways to b
 
 ### Why only Bitcoin and Monero
 Bitcoin because is the biggest, with the most market cap, most adoption and most used among all cryptos. Monero because it is the true digital money, the only one that preserves privacy by design and brings true fungibility.
+
+### Website has trackers?
+Actually I have set up the free version of Matomo web analytics. [Matomo](https://matomo.org/) gathers analytics in a completelly privacy-respecting way. I will be setting up a self-hosted version of Matomo so I will completelly control the data myself so I can be sure nothing is done with it.
+
+Matomo is [completelly open source](https://github.com/matomo-org/matomo), so the code can be studied. If you have any doubts I encourage you to take a look at Matomo's code and their website.
+
+I want to have analytics for my site as I want to know if it is worth it to continue developing features for it, or if I have to improve certain things. At any moment the analytics data will be sold. 
 
 ## Contribute
 
