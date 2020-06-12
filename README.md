@@ -7,6 +7,7 @@ kycnot.me is a simple yet useful webpage. It lists trusted Exchanges where you c
   * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
   * [Website has trackers?](#website-has-trackers)
 * [Contribute](#contribute)
+ * [Donate](#donate)
 
 ## Legend of icons
 Legend of icons is now available on the website itself.
@@ -46,3 +47,7 @@ I'll be setting up a self-hosted Matomo instance for analytics (Not only for thi
 FYI: I'm not a web developer, so don't expect web design to be any great.
 
 > The project is licensed under GNUPLv3
+
+###  Donate
+Bitcoin: `1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L`
+Monero: `8AAeZCQRwT98qH74qwFTSJ8XRJAhzhye4JiJFbkUwvoHeQ2cCHs7Q7YUgdL1tJsJFbfBdqsqSrUwcMZmvBLZPwjVUR2Ej2h`
