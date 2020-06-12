@@ -31,7 +31,7 @@ With KYCNOT.ME I want to make it easier for people to find trustworthy ways to b
 Bitcoin because is the biggest, with the most market cap, most adoption and most used among all cryptos. Monero because it is the true digital money, the only one that preserves privacy by design and brings true fungibility.
 
 ### Website has trackers?
-Actually I have set up the free version of Matomo web analytics. [Matomo](https://matomo.org/) gathers analytics in a completelly privacy-respecting way. I will be setting up a self-hosted version of Matomo so I will completelly control the data myself so I can be sure nothing is done with it.
+Actually I have set up the free version of Matomo web analytics. [Matomo](https://matomo.org/) gathers analytics in a completelly privacy-respecting way. I will be setting up a self-hosted version of Matomo so I will completelly control the data myself.
 
 Matomo is [completelly open source](https://github.com/matomo-org/matomo), so the code can be studied. If you have any doubts I encourage you to take a look at Matomo's code and their website.
 
