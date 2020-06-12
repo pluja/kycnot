@@ -49,5 +49,5 @@ FYI: I'm not a web developer, so don't expect web design to be any great.
 > The project is licensed under GNUPLv3
 
 ###  Donate
-Bitcoin: `1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L`
-Monero: `8AAeZCQRwT98qH74qwFTSJ8XRJAhzhye4JiJFbkUwvoHeQ2cCHs7Q7YUgdL1tJsJFbfBdqsqSrUwcMZmvBLZPwjVUR2Ej2h`
+* Bitcoin: `1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L`
+* Monero: `8AAeZCQRwT98qH74qwFTSJ8XRJAhzhye4JiJFbkUwvoHeQ2cCHs7Q7YUgdL1tJsJFbfBdqsqSrUwcMZmvBLZPwjVUR2Ej2h`
