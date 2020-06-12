@@ -1,0 +1,7 @@
+# v2020.06.12
+* Add hover on icons to show meaning.
+* Add hover to page name to show a brief description.
+* Reduce the usage of JS:
+  * Tooltips no longer require JS.
+* Add icons legend (Requiring JS atm)
+* Some services added / removed
