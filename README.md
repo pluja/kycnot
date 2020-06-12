@@ -46,7 +46,7 @@ I will leave screenshots of the Matomo privacy configuration I have set:
 
 Contributions are very welcome. Any suggestion, recomendation, correction, idea... Just open a Github issue and I'll fix it as quick as I can.
 
-The webpage is just HTML and CSS, I really try to avoid JavaScript due to all of it's privacy implications so anything related to JS will likely be declined, but you can suggest anyways.
+[The list of changes can be found here](CHANGELOG)
 
 I'll be setting up a self-hosted Matomo instance for analytics (Not only for this site, but for several personal projects).
 
