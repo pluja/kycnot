@@ -44,7 +44,7 @@ I want the site to use as little JS as possible, so all suggestion will be evalu
 
 I'll be setting up a self-hosted Matomo instance for analytics (Not only for this site, but for several personal projects).
 
-FYI: I'm not a web developer, so don't expect web design to be any great.
+**FYI: I'm not a web developer, so don't expect web design / development to be any great.**
 
 > The project is licensed under GNUPLv3
 
