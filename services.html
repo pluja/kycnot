@@ -19,7 +19,9 @@
 	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+	<link rel="stylesheet" type="text/css" href="css/balloon.css">
 <!--===============================================================================================-->
 
 
@@ -62,9 +64,33 @@
 		</div>
 	  </nav>
 	
+	<!-- Modal -->
+	<div class="modal fade" id="legendModal" tabindex="-1" role="dialog" aria-labelledby="legendModalTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLongTitle">Legend - Info</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			</div>
+			<div class="modal-body">
+				<p><i aria-hidden="true" class="las la-user-alt-slash"></i> - The site requires no user personal data</p>
+				<p><i aria-hidden="true" class="las la-user-circle"></i> - The site requires user personal data</a></p>
+				<p><i aria-hidden="true" class="las la-question-circle"></i> - May vary, multiple services offered.</a></p>
+				<p>-</p>
+				<p><i aria-hidden="true" class="las la-info"></i>You can hover on any icon / service name to learn more.</p>
+			</div>
+			<div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		</div>
+	</div>
+	
 	<div class="limiter">
 		<div class="container-table100">
-			<span class="title-container"><h1 class="title"><a class="repo" href="https://github.com/pluja/kycnot"> KYC, NOT ME</a></h1> <p class="donate"><i class="lab la-bitcoin" aria-hidden="true"></i> Donate: 1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L</p><a class="why" href="https://github.com/pluja/kycnot/blob/master/README.md#why-this"><i class="lar la-question-circle"></i> WHY THIS</a></span>
+			<span class="title-container"><h1 class="title"><a class="repo" href="https://github.com/pluja/kycnot"> KYC, NOT ME</a></h1> <p class="donate"><i class="lab la-bitcoin" aria-hidden="true"></i></span> Donate: 1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L</p><a class="why" href="https://github.com/pluja/kycnot/blob/master/README.md#why-this"><i class="lar la-question-circle"></i> WHY THIS</a> <p class="legend" data-toggle="modal" data-target="#legendModal">LEGEND</p></span>
 			<div class="wrap-table100">
 				<div class="table100">
 					<table>
@@ -79,8 +105,10 @@
 						<tbody>
 								<tr>
 									<td class="column1">
-										<a target="_blank" data-toggle="tooltip" data-placement="top" title="Open Source 100% anonymous VPN." href="https://mullvad.net/">Mullvad VPN</a> 
-                                        <i data-toggle="tooltip" data-placement="top" title="No personal data required" class="las la-user-alt-slash"></i>
+                                        <a target="_blank" data-balloon-length="medium" data-balloon-pos="up" aria-label="Open Source 100% anonymous VPN." href="https://mullvad.net/">Mullvad VPN</a>
+                                        <span  data-balloon-length="medium" data-balloon-pos="up" aria-label="No personal data required">
+                                            <i aria-hidden="true" class="las la-user-alt-slash"></i>
+                                        </span>
 									</td>
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
 									<td class="column3"><i class="las la-times" aria-hidden="true"></i></td>
@@ -89,12 +117,26 @@
                                 
                                 <tr>
 									<td class="column1">
-										<a target="_blank" data-toggle="tooltip" data-placement="top" title="Blazing fast VPS and Dedicated Hosting. Now accepting Bitcoin, Lightning Network, Monero, and over 300 alts." href="https://cryptoho.st/">Cryptoho.st</a> 
-                                        <i class="las la-user-circle" data-toggle="tooltip" data-placement="top" title="Requires personal data" aria-hidden="true"></i>
+										<a target="_blank" data-balloon-length="medium" data-balloon-pos="up" aria-label="Blazing fast VPS and Dedicated Hosting. Now accepting Bitcoin, Lightning Network, Monero, and over 300 alts." href="https://cryptoho.st/">Cryptoho.st</a> 
+                                        <span  data-balloon-length="medium" data-balloon-pos="up" aria-label="Personal data required">
+                                            <i class="las la-user-circle" aria-hidden="true"></i>
+                                        </span>
 									</td>
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></td>
 									<td class="column3"><i class="las la-check" aria-hidden="true"></i></td>
 									<td class="column4"><i class="las la-times" aria-hidden="true"></i></td>
+                                </tr>
+                                
+                                <tr>
+									<td class="column1">
+										<a target="_blank" data-balloon-length="medium" data-balloon-pos="up" aria-label="Comprehensive directory of venues that support bitcoin lightning payments." href="https://lightningnetworkstores.com/">Lightning Network Stores</a> 
+                                        <span  data-balloon-length="medium" data-balloon-pos="up" aria-label="No personal data required">
+                                            <i class="las la-user-alt-slash" aria-hidden="true"></i>
+                                        </span>
+									</td>
+									<td class="column2"><i class="las la-question-circle" aria-hidden="true"></i></td>
+									<td class="column3"><i class="las la-question-circle" aria-hidden="true"></i></td>
+									<td class="column4"><i class="las la-question-circle" aria-hidden="true"></i></td>
 								</tr>
 						</tbody>
 					</table>
