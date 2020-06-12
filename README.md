@@ -9,16 +9,7 @@ kycnot.me is a simple yet useful webpage. It lists trusted Exchanges where you c
 * [Contribute](#contribute)
 
 ## Legend of icons
-All exchanges have some icons along them, this is what they mean:
-
-* 🤝 - The service is Peer-to-Peer
-* 🛡 - Verified: The service has been tested by myself or by several trusted users.
-* 👁 - The service does not respect your privacy. Eg. Records your IP, requests personal data...
-* ✔ - YES
-* ❌ - NO
-* ⚠ - Considerations - Hover to know more. (Usually implies NO)
-* 👤 - Service needs an account
-* 🎭 - Hidden (Tor) service is available
+Legend of icons is now available on the website itself.
 
 ## Why this
 Cryptocurrencies are meant to make a change on the way we pay and exchange goods. They are made to untie the dependency between the users (customers) and the centralized entities that are in control (law enforced) of our economy (eg. Banks, FED, etc.).
