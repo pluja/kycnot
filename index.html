@@ -80,7 +80,8 @@
 			<div class="modal-body">
 				<p><i aria-hidden="true" class="las la-shield-alt"></i> - The site has been tested by me or several trusted users</p>
 				<p><i aria-hidden="true" class="las la-link"></i> - The site has a <a href="https://bin.nixnet.services/?b91443dd8ccdde8d#DBeBMrKXKWrKcbrkzgS9UdZJF7Xab2Ljv8VD5h3wUSaN">custodial wallet</a></p>
-				<p><i aria-hidden="true" class="las la-user-circle"></i> - The site requires the user to create an account</a></p>
+				<p><i aria-hidden="true" class="las la-user-circle"></i> - The account creation requires personal information</a></p>
+				<p><i class="las la-user-secret"></i> - No personal information is required</p>
 				<p><i aria-hidden="true" class="las la-handshake"></i> - The service is Peer-To-Peer</a></p>
 				<p><i aria-hidden="true" class="las la-eye"></i> - The site may require KYC at some point.</a></p>
 				<p><i aria-hidden="true" class="las la-mask"></i> - The site offers a Tor hidden service.</a></p>
@@ -119,6 +120,7 @@
 										<span  data-balloon-length="small" data-balloon-pos="right" aria-label="Verified"><i aria-hidden="true" class="las la-shield-alt"></i></span>
 										<span data-balloon-length="small" data-balloon-pos="right" aria-label="Account required"><i class="las la-user-circle"></i></span>
 										<span data-balloon-length="small" data-balloon-pos="right" aria-label="Custodial wallet"><i class="las la-link"></i></span>
+										<span data-balloon-length="small" data-balloon-pos="right" aria-label="No personal information needed"><i class="las la-user-secret"></i></span>
 									</td>
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
@@ -154,11 +156,15 @@
 										<a target="_blank" href="https://bisq.network/" data-balloon-length="medium" data-balloon-pos="up" aria-label="P2P Exchange. Needs installation. Some sellers may ask for ID verification.">Bisq</a>  
 										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Verified"><i class="las la-shield-alt" aria-hidden="true"></i></span> 
 										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
-										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
+										<span data-balloon-length="small" data-balloon-pos="right" aria-label="No personal information needed in account set up"><i class="las la-user-secret"></i></span>
 									</td>
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
-									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
+									<td class="column4 ">
+										<span aria-label="Some sellers may require identification" data-balloon-length="medium" data-balloon-pos="down">
+											<i class="las la-exclamation-triangle" aria-hidden="true"></i>
+										</span>
+									</td>
 									<td class="column5"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column6"><i class="las la-check" aria-hidden="true"></i></span></td>
 								</tr>
@@ -174,7 +180,7 @@
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column3"><i class="las la-times" aria-hidden="true"></i></span></td>
 									<td class="column4 ">
-										<span aria-label="May require KYC if suspicious" data-balloon-length="medium" data-balloon-pos="up">
+										<span aria-label="Limit of $400 if no KYC" data-balloon-length="medium" data-balloon-pos="up">
 											<i class="las la-exclamation-triangle" aria-hidden="true"></i>
 										</span>
 									</td>
@@ -186,9 +192,10 @@
 									<td class="column1">
 										<a target="_blank" href="https://binance.com/">Binance</a> 
 										<span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up"><i class="las la-shield-alt"  aria-hidden="true"></i></span>  
-										<span data-balloon-length="small" data-balloon-pos="up" aria-label="May require KYC">
-											<i class="fa fa-eye" aria-hidden="true"></i>
-										</span>  
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="May require KYC"></span>  
+										<span data-balloon-length="medium" data-balloon-pos="right" aria-label="No personal information needed in account set up"><i class="las la-user-secret"></i></span>
+										<span data-balloon-length="medium" data-balloon-pos="up" aria-label="Some features may require KYC"><i class="las la-eye"></i></span>
+										
 										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
 										<span aria-label="Custodial wallet" data-balloon-length="small" data-balloon-pos="up"><i class="las la-link" ></i>
 										</td>
@@ -207,8 +214,9 @@
 									<td class="column1">
 										<a target="_blank" data-balloon-length="medium" data-balloon-pos="up" aria-label="Some sellers may ask for ID verification." href="https://agoradesk.com/">Agoradesk</a> 
 										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
-										<span aria-label="Account required" data-balloon-length="small" data-balloon-pos="up"><i class="las la-user-circle"  aria-hidden="true"></i></span>
-										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Custodial wallet"><i class="las la-link"></i></span></td>
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Custodial wallet"><i class="las la-link"></i></span>
+										<span data-balloon-length="small" data-balloon-pos="up" aria-label="Tor mirror available"><i class="las la-mask"></i></span>
+										<span data-balloon-length="medium" data-balloon-pos="right" aria-label="No personal information needed in account set up"><i class="las la-user-secret"></i></span></td>
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column3"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column4 ">
@@ -223,8 +231,8 @@
 								<tr>
 									<td class="column1">
 										<a target="_blank" href="https://liquality.io">Liquality</a>
-										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span> 
-									</td>
+										<span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up"><i class="las la-handshake"  aria-label="P2P" aria-hidden="true"></i></span>
+										<span data-balloon-length="medium" data-balloon-pos="up" aria-label="Uses Metamask / Ledger"><i class="las la-user-secret"></i></span></td>
 									<td class="column2"><i class="las la-check" aria-hidden="true"></i></span></td>
 									<td class="column3"><i class="las la-times" aria-hidden="true"></i></span></td>
 									<td class="column4"><i class="las la-times" aria-hidden="true"></i></span></td>
