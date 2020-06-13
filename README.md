@@ -1,4 +1,4 @@
-# [kycnot.me](https://kycnot.me)
+# [KYC, NOT ME](https://kycnot.me)
 kycnot.me is a simple yet useful web page. It lists trusted Services where you can interact with Bitcoin or Monero. You can easily compare and decide what's best for you.
 
 **CONTENTS**
