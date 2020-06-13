@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.las{
+  font-size: 1.15em;
+}
+
 .legend{
   cursor: pointer;
   color: #36304a;
@@ -24,10 +28,6 @@
   padding: .6em;
 }
 
-.las{
-  font-size: 17px;
-}
-
 .repo{
   color: white;
 }
@@ -38,6 +38,10 @@
 
 .la-check{
   color: #2eb134;
+}
+
+.la-hand-holding-usd{
+  color: #7c8500;
 }
 
 .la-shield-alt{
@@ -284,7 +288,7 @@ tbody tr:hover {
 }
 
 .column1 {
-  width: 205px;
+  width: 225px;
   text-align: center;
   padding-left: 40px;
 }
