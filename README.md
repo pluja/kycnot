@@ -1,5 +1,5 @@
 # [kycnot.me](https://kycnot.me)
-kycnot.me is a simple yet useful web page. It lists trusted Exchanges where you can buy / trade Bitcoin or Monero. You can easily compare and decide what's best for you.
+kycnot.me is a simple yet useful web page. It lists trusted Services where you can interact with Bitcoin or Monero. You can easily compare and decide what's best for you.
 
 **CONTENTS**
 * [Legend of icons](#legend-of-icons)
