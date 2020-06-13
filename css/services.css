@@ -1,7 +1,7 @@
 /*///SELF///*/
 @font-face {
     font-family: Worksans;
-    src:url('../fonts/WorkSans/WorkSans-Medium.ttf');
+    src:url('fonts/WorkSans/WorkSans-Medium.ttf');
   }
   
   .title-container{

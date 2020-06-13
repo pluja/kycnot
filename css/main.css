@@ -1,8 +1,4 @@
 /*///SELF///*/
-@font-face {
-  font-family: Worksans;
-  src:url('../fonts/WorkSans/WorkSans-Medium.ttf');
-}
 
 .title-container{
   text-align: center;
@@ -20,7 +16,7 @@
 }
 
 .title{
-  font-family: Worksans;
+  font-family: OpenSans-Regular;
   color: white;
 }
 
@@ -96,7 +92,6 @@
   font-family: OpenSans-Regular;
   src: url('../fonts/OpenSans/OpenSans-Regular.ttf'); 
 }
-
 
 
 /*//////////////////////////////////////////////////////////////////
