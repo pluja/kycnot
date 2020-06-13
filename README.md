@@ -4,10 +4,11 @@ kycnot.me is a simple yet useful web page. It lists trusted Services where you c
 **CONTENTS**
 * [Legend of icons](#legend-of-icons)
 * [Why this](#why-this)
-* [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
-* [Website has trackers?](#website-has-trackers)
+  * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
+  * [Website has trackers?](#website-has-trackers)
 * [Contribute](#contribute)
-* [Donate](#donate)
+  * [Donate](#donate)
+* [Mentioned at](#mentioned-at)
 
 ## Legend of icons
 Legend of icons is now available on the website itself.
@@ -52,3 +53,10 @@ I'll be setting up a self-hosted Matomo instance for analytics (Not only for thi
 ### Donate
 * Bitcoin: `1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L`
 * Monero: `8AAeZCQRwT98qH74qwFTSJ8XRJAhzhye4JiJFbkUwvoHeQ2cCHs7Q7YUgdL1tJsJFbfBdqsqSrUwcMZmvBLZPwjVUR2Ej2h`
+
+## Mentioned at:
+KYCNOT.me has been mentioned at:
+* [decrypt.co](https://decrypt.co/32233/looking-for-bitcoin-with-no-kyc-this-new-site-has-you-covered)
+* [kryptokumpel](https://www.kryptokumpel.de/boerse/auf-der-suche-nach-boersen-ohne-kyc-neue-webseite-kyc-not-me-listet-verbleibende-boersen-ohne-know-your-customer-verfahren/)
+* [James Lopp Twitter](https://nitter.net/lopp/status/1271417720018534400)
+* [estudiobitcoin](https://estudiobitcoin.com/comprar-y-vender/)
