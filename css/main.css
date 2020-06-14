@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.green{
+  color: #008507 !important;
+}
+
 .las{
   font-size: 1.15em;
 }
