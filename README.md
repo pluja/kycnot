@@ -1,16 +1,15 @@
-# [kycnot.me](https://kycnot.me)
+# [KYC, NOT ME](https://kycnot.me)
 kycnot.me is a simple yet useful web page. It lists trusted Services where you can interact with Bitcoin or Monero. You can easily compare and decide what's best for you.
 
 **CONTENTS**
-* [Legend of icons](#legend-of-icons)
 * [Why this](#why-this)
-* [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
-* [Website has trackers?](#website-has-trackers)
+  * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
+  * [Website has trackers?](#website-has-trackers)
+* [FAQ](#FAQ)
+  * [Decision making](#what-is-the-criteria)
 * [Contribute](#contribute)
-* [Donate](#donate)
-
-## Legend of icons
-Legend of icons is now available on the website itself.
+  * [Donate](#donate)
+* [Mentioned in](#mentioned-in)
 
 ## Why this
 Cryptocurrencies are meant to make a change on the way we pay and exchange goods. They are made to untie the dependency between the users (customers) and the centralized entities that are in control (law enforced) of our economy (e.g. Banks, FED, etc.).
@@ -34,21 +33,58 @@ I will leave screenshots of the Matomo privacy configuration I have set:
 ![Main config](images/github_assets/matomo_config.png)
 ![Deletion](images/github_assets/old_data_deletion.png)
 
+## FAQ
+
+I will try to answer some of the most common questions.
+
+#### Why is "X" not listed?
+There my be many reasons to this question. For now, I'm alone with this project and my time is limited and before adding a Exchange/Merchant/Service I need to make some investigation in order to be sure that it compiles with the NON-KYC requirements. So one of the reasons, if it was suggested is that maybe I haven't had the time to investigate on it. If you're patient I promise I will be investigating all the suggerences I recieve.
+
+#### Will *this* feature be implemented?
+Again, I'm alone with this. I would love to be implementing a lot of thing I have in mind but time is limited and I am not fulltime on this, in fact I have a job and several personal projects at the moment. The time I am dedicating to kycnot.me is limited and I would really like to be able to dedicate it much more time.
+
+As I will always say, contributors are **very** welcome.
+
+#### Why Open Source?
+Well, it's not a very big service / project (maybe in the future will grow) but I really believe in Open Source. I want people to be able to contribute with it, request features, to make suggestions and I want as well to interact with them. I am not a company, I'm a individual who wants to make the usage of cryptos fairer and try to preserve its good characteristics.
+
+#### What is the criteria?
+Well, there's not (*yet*) a well established criteria on the decision-making process. But the following are points which I think I really value (not the only ones, nor the decisive ones) when choosing a service to be listed:
+
+- [ ] Open Source-ness
+- [ ] Decentralization
+- [ ] No lock of funds if KYC is requested for some reason
+- [ ] Ammout of personal data required to register
+- [ ] No registration needed
+- [ ] Tor mirrors
+- [ ] Good reviews, active on social networks, etc.
+- [ ] Clear and readable Terms of Service
+
 ## Contribute
 Suggestions about listing new Exchanges must be commented [here](https://github.com/pluja/kycnot/issues/15)
 
 Contributions are very welcome. Any suggestion, recommendation, correction, idea... Just open a Github issue and I'll fix it as quick as I can.
 
-I want the site to use as little JS as possible, so all suggestion will be evaluated before being added. Also, I won't have any backend in the near future, only frontend. I may be adding backend at some point if the project grows.
+Also, **active contributors** are wanted! I am alone with this and my time is limited.
+
+### The project itself:
+I want the site to use as little JS as possible (as when I have some time I want to add a non-JS version plus a Tor mirror for the site), so all suggestions will be evaluated before being added. Also, I won't have any backend in the near future, only frontend. I may be adding backend at some point if the project grows.
 
 [The list of changes can be found here](CHANGELOG.md)
 
 I'll be setting up a self-hosted Matomo instance for analytics (Not only for this site, but for several personal projects).
 
-**FYI: I'm not a web developer, so don't expect web design / development to be any great.**
-
-> The project is licensed under GNUPLv3
+**FYI: I'm not a web developer.**
 
 ### Donate
-* Bitcoin: `1GafZ243XHrpteRJ4gNkm91xZHnmYUR96L`
-* Monero: `8AAeZCQRwT98qH74qwFTSJ8XRJAhzhye4JiJFbkUwvoHeQ2cCHs7Q7YUgdL1tJsJFbfBdqsqSrUwcMZmvBLZPwjVUR2Ej2h`
+* Bitcoin: `3NgdEH6tDEi28AqLeKyB4sApvZR14k8gCU`
+* Monero: `82ZG8jKCBbdhyxRffWUcmQC5DSHT9LF1JWASe8Efy5ZGDjm4FxLQuks7R3iNs8xY9UVeZxkV5terminnW6AAuCQZExZiRPN`
+
+## Mentioned in:
+KYCNOT.me has been mentioned in:
+* [decrypt.co](https://decrypt.co/32233/looking-for-bitcoin-with-no-kyc-this-new-site-has-you-covered)
+* [cointelegraph](https://cointelegraph.com/news/website-compiles-list-of-kyc-free-exchanges-along-with-some-warnings)
+* [James Lopp Twitter](https://nitter.net/lopp/status/1271417720018534400)
+* [kryptokumpel](https://www.kryptokumpel.de/boerse/auf-der-suche-nach-boersen-ohne-kyc-neue-webseite-kyc-not-me-listet-verbleibende-boersen-ohne-know-your-customer-verfahren/)
+* [estudiobitcoin](https://estudiobitcoin.com/comprar-y-vender/)
+
