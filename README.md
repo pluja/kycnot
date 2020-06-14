@@ -53,7 +53,7 @@ As I will always say, contributors are **very** welcome.
 Well, it's not a very big service / project (maybe in the future will grow) but I really believe in Open Source. I want people to be able to contribute with it, request features, to make suggestions and I want as well to interact with them. I am not a company, I'm a individual who wants to make the usage of cryptos fairer and try to preserve its good characteristics.
 
 #### What is the criteria?
-Well, there's not (*yet*) a well established criteria on the decision-making process. But the following are points which I think I really value when choosing a service to be listed:
+Well, there's not (*yet*) a well established criteria on the decision-making process. But the following are points which I think I really value (not the only ones, nor the decisive ones) when choosing a service to be listed:
 
 - [ ] Open Source-ness
 - [ ] Decentralization
