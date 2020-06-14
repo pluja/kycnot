@@ -62,9 +62,9 @@ Well, there's not (*yet*) a well established criteria on the decision-making pro
 - [ ] Clear and readable Terms of Service
 
 ### Unlisting reasons:
-* LocalBitcoins unlisted - 2020.06.12 - Reason: #26
-* Binance unlisted - 2020.06.13 - Reason: #24
-* BitQuick unlisted - 2020.06.14 - Reason: #25
+* LocalBitcoins unlisted - 2020.06.12 - Reason: [#26](https://github.com/pluja/kycnot/issues/26)
+* Binance unlisted - 2020.06.13 - Reason: [#24](https://github.com/pluja/kycnot/issues/24)
+* BitQuick unlisted - 2020.06.14 - Reason: [#25](https://github.com/pluja/kycnot/issues/25)
 
 ## Contribute
 Suggestions about listing new Exchanges must be commented [here](https://github.com/pluja/kycnot/issues/15)
