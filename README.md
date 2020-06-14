@@ -6,6 +6,7 @@ kycnot.me is a simple yet useful web page. It lists trusted Services where you c
 * [Why this](#why-this)
   * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
   * [Website has trackers?](#website-has-trackers)
+* [FAQ](#FAQ)
 * [Contribute](#contribute)
   * [Donate](#donate)
 * [Mentioned at](#mentioned-at)
@@ -34,6 +35,21 @@ I will leave screenshots of the Matomo privacy configuration I have set:
 
 ![Main config](images/github_assets/matomo_config.png)
 ![Deletion](images/github_assets/old_data_deletion.png)
+
+## FAQ
+
+I will try to answer some of the most common questions.
+
+### Why is "X" not listed?
+There my be many reasons to this question. For now, I'm alone with this project and my time is limited and before adding a Exchange/Merchant/Service I need to make some investigation in order to be sure that it compiles with the NON-KYC requirements. So one of the reasons, if it was suggested is that maybe I haven't had the time to investigate on it. If you're patient I promise I will be investigating all the suggerences I recieve.
+
+### Will *this* feature be implemented?
+Again, I'm alone with this. I would love to be implementing a lot of thing I have in mind but time is limited and I am not fulltime on this, in fact I have a job and several personal projects at the moment. The time I am dedicating to kycnot.me is limited and I would really like to be able to dedicate it much more time.
+
+As I will always say, contributors are **very** welcome.
+
+### Why Open Source?
+Well, it's not a very big service / project (maybe in the future will grow) but I really believe in Open Source. I want people to be able to contribute with it, request features, to make suggestions and I want as well to interact with them. I am not a company, I'm a individual who wants to make the usage of cryptos fairer and try to preserve its good characteristics.
 
 ## Contribute
 Suggestions about listing new Exchanges must be commented [here](https://github.com/pluja/kycnot/issues/15)
