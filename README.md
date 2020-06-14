@@ -7,7 +7,7 @@ kycnot.me is a simple yet useful web page. It lists trusted Services where you c
   * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
   * [Website has trackers?](#website-has-trackers)
 * [FAQ](#FAQ)
- * [Decision making](#what-is-the-criteria)
+  * [Decision making](#what-is-the-criteria)
 * [Contribute](#contribute)
   * [Donate](#donate)
 * [Mentioned at](#mentioned-at)
@@ -55,14 +55,14 @@ Well, it's not a very big service / project (maybe in the future will grow) but 
 #### What is the criteria?
 Well, there's not (*yet*) a well established criteria on the decision-making process. But the following are points which I think I really value when choosing a service to be listed:
 
-[ ] Open Source-ness
-[ ] Decentralization
-[ ] No lock of funds if KYC is requested for some reason
-[ ] Ammout of personal data required to register
-[ ] No registration needed
-[ ] Tor mirrors
-[ ] Good reviews, active on social networks, etc.
-[ ] Clear and readable Terms of Service
+- [ ] Open Source-ness
+- [ ] Decentralization
+- [ ] No lock of funds if KYC is requested for some reason
+- [ ] Ammout of personal data required to register
+- [ ] No registration needed
+- [ ] Tor mirrors
+- [ ] Good reviews, active on social networks, etc.
+- [ ] Clear and readable Terms of Service
 
 ## Contribute
 Suggestions about listing new Exchanges must be commented [here](https://github.com/pluja/kycnot/issues/15)
