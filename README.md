@@ -9,7 +9,7 @@ kycnot.me is a simple yet useful web page. It lists trusted Services where you c
   * [Decision making](#what-is-the-criteria)
 * [Contribute](#contribute)
   * [Donate](#donate)
-* [Mentioned at](#mentioned-at)
+* [Mentioned in](#mentioned-in)
 
 ## Why this
 Cryptocurrencies are meant to make a change on the way we pay and exchange goods. They are made to untie the dependency between the users (customers) and the centralized entities that are in control (law enforced) of our economy (e.g. Banks, FED, etc.).
@@ -67,24 +67,24 @@ Contributions are very welcome. Any suggestion, recommendation, correction, idea
 
 Also, **active contributors** are wanted! I am alone with this and my time is limited.
 
-I want the site to use as little JS as possible, so all suggestion will be evaluated before being added. Also, I won't have any backend in the near future, only frontend. I may be adding backend at some point if the project grows.
+### The project itself:
+I want the site to use as little JS as possible (as when I have some time I want to add a non-JS version plus a Tor mirror for the site), so all suggestions will be evaluated before being added. Also, I won't have any backend in the near future, only frontend. I may be adding backend at some point if the project grows.
 
 [The list of changes can be found here](CHANGELOG.md)
 
 I'll be setting up a self-hosted Matomo instance for analytics (Not only for this site, but for several personal projects).
 
-**FYI: I'm not a web developer, so don't expect web design / development to be any great.**
-
-> The project is licensed under GNUPLv3
+**FYI: I'm not a web developer.**
 
 ### Donate
 * Bitcoin: `3NgdEH6tDEi28AqLeKyB4sApvZR14k8gCU`
 * Monero: `82ZG8jKCBbdhyxRffWUcmQC5DSHT9LF1JWASe8Efy5ZGDjm4FxLQuks7R3iNs8xY9UVeZxkV5terminnW6AAuCQZExZiRPN`
 
-## Mentioned at:
-KYCNOT.me has been mentioned at:
+## Mentioned in:
+KYCNOT.me has been mentioned in:
 * [decrypt.co](https://decrypt.co/32233/looking-for-bitcoin-with-no-kyc-this-new-site-has-you-covered)
-* [kryptokumpel](https://www.kryptokumpel.de/boerse/auf-der-suche-nach-boersen-ohne-kyc-neue-webseite-kyc-not-me-listet-verbleibende-boersen-ohne-know-your-customer-verfahren/)
-* [James Lopp Twitter](https://nitter.net/lopp/status/1271417720018534400)
-* [estudiobitcoin](https://estudiobitcoin.com/comprar-y-vender/)
 * [cointelegraph](https://cointelegraph.com/news/website-compiles-list-of-kyc-free-exchanges-along-with-some-warnings)
+* [James Lopp Twitter](https://nitter.net/lopp/status/1271417720018534400)
+* [kryptokumpel](https://www.kryptokumpel.de/boerse/auf-der-suche-nach-boersen-ohne-kyc-neue-webseite-kyc-not-me-listet-verbleibende-boersen-ohne-know-your-customer-verfahren/)
+* [estudiobitcoin](https://estudiobitcoin.com/comprar-y-vender/)
+
