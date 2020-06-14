@@ -2,7 +2,6 @@
 kycnot.me is a simple yet useful web page. It lists trusted Services where you can interact with Bitcoin or Monero. You can easily compare and decide what's best for you.
 
 **CONTENTS**
-* [Legend of icons](#legend-of-icons)
 * [Why this](#why-this)
   * [Why only Bitcoin and Monero](#why-only-bitcoin-and-monero)
   * [Website has trackers?](#website-has-trackers)
@@ -11,9 +10,6 @@ kycnot.me is a simple yet useful web page. It lists trusted Services where you c
 * [Contribute](#contribute)
   * [Donate](#donate)
 * [Mentioned at](#mentioned-at)
-
-## Legend of icons
-Legend of icons is now available on the website itself.
 
 ## Why this
 Cryptocurrencies are meant to make a change on the way we pay and exchange goods. They are made to untie the dependency between the users (customers) and the centralized entities that are in control (law enforced) of our economy (e.g. Banks, FED, etc.).
