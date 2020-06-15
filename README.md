@@ -92,5 +92,6 @@ KYCNOT.me has been mentioned in:
 * [cointelegraph](https://cointelegraph.com/news/website-compiles-list-of-kyc-free-exchanges-along-with-some-warnings)
 * [James Lopp Twitter](https://nitter.net/lopp/status/1271417720018534400)
 * [kryptokumpel](https://www.kryptokumpel.de/boerse/auf-der-suche-nach-boersen-ohne-kyc-neue-webseite-kyc-not-me-listet-verbleibende-boersen-ohne-know-your-customer-verfahren/)
+* [mihanblockchain](https://mihanblockchain.com/kycnot-me-website-list-cryptocurrency-exchanges-without-kyc/)
 * [estudiobitcoin](https://estudiobitcoin.com/comprar-y-vender/)
 
