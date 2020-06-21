@@ -1,3 +1,5 @@
+⚠️ Currently I'm facing personal issues and I can't mantain this project in an active way. Any maintainers will be really welcome. Until further notice, I won't be able to keep a close eye on this project.
+
 # [KYC, NOT ME](https://kycnot.me)
 kycnot.me is a simple yet useful web page. It lists trusted Services where you can interact with Bitcoin or Monero without the need of KYC verification. You can easily compare and decide what's best for you.
 
