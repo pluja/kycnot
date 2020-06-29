@@ -85,8 +85,8 @@ I'll be setting up a self-hosted Matomo instance for analytics (Not only for thi
 **FYI: I'm not a web developer.**
 
 ### Donate
-* Bitcoin: `3NgdEH6tDEi28AqLeKyB4sApvZR14k8gCU`
-* Monero: `82ZG8jKCBbdhyxRffWUcmQC5DSHT9LF1JWASe8Efy5ZGDjm4FxLQuks7R3iNs8xY9UVeZxkV5terminnW6AAuCQZExZiRPN`
+* Bitcoin: `3AoxCVyLMhSBoGSFZn33FrePxU6CMzKDTH`
+* Monero: `84rQVqquSjXFCCcRudKbsWMRXQnmVwPYJeLLQo8A4SiTEEPSjaydNCvJxAziYTYBnvEUkqgxecPjCak33Z4NT2vLPrePwGA`
 
 ## Mentioned in:
 KYCNOT.me has been mentioned in:
