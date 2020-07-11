@@ -1,3 +1,7 @@
+# v2020.07.11
+* Changed donations addresses.
+* Preparing for flask implementation of the page.
+
 # v2020.06.14
 * New donations page.
 * Some services added / removed.
