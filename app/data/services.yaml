@@ -1,0 +1,76 @@
+services: 
+  - name: Mullvad VPN
+    url: https://mullvad.net/
+    comment: Open source, fast and anonymous VPN
+    # Main attributes
+    btc: True
+    lnn: False
+    xmr: False
+    conditions:
+    # Side badges
+    verified: True
+    registration: False
+    personalinfo: False
+    tor: False
+    cash: True
+
+
+  - name: DTMF
+    url: https://dtmf.io/
+    comment: Virtual phone numbers provider
+    # Main attributes
+    btc: True
+    lnn: True
+    xmr: True
+    conditions:
+    # Side badges
+    verified: True
+    registration: True
+    personalinfo: False
+    tor: False
+    cash: False
+
+  - name: Cryptoho.st
+    url: https://cryptoho.st/
+    comment: Blazing fast VPS and Dedicated Hosting
+    # Main attributes
+    btc: True
+    lnn: True
+    xmr: True
+    conditions: Lots of personal data required
+    # Side badges
+    verified: True
+    registration: True
+    personalinfo: True
+    tor: False
+    cash: False
+  
+  - name: XMR.to
+    url: https://xmr.to/
+    comment: Pay Bitcoin-accepting merchants in Monero.
+    # Main attributes
+    btc: True
+    lnn: False
+    xmr: True
+    conditions: Lots of personal data required
+    # Side badges
+    verified: True
+    registration: False
+    personalinfo: False
+    tor: False
+    cash: False
+  
+  - name: LNN Stores
+    url: https://lightningnetworkstores.com/
+    comment: Comprehensive venue of stores that support BTC LNN payments.
+    # Main attributes
+    btc: True
+    lnn: True
+    xmr: False
+    conditions: May vary, multiple services listed.
+    # Side badges
+    verified: False
+    registration: False
+    personalinfo: False
+    tor: False
+    cash: False

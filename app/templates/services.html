@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="ui container">
+<h2 class="ui center aligned icon header">
+    <i class="circular globe icon"></i>
+    Services
+</h2>
+
+
+<table class="ui celled table">
+    <thead>
+      <tr class="center aligned">
+        <th>Name</th>
+        <th>BTC</th>
+        <th>XMR</th>
+        <th>Concerns</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in list %}
+        {% include '_service-item.html' %}
+      {% endfor %}
+    </tbody>
+</table>
+</div>
+{% endblock %}

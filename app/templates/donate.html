@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="ui container">
+<h2 class="ui center aligned icon header">
+    <i class="circular red heart outline icon"></i>
+    Donate
+    <div class="sub header">This project is free and Open Source to everyone. But if you want, you can buy me a coffee (I don't require KYC!). </div>
+</h2>
+<div class="ui divider"></div>
+<div class="ui divider"></div>
+
+<h2 class="ui center aligned icon header">
+    <i class="orange bitcoin icon"></i>
+    <div class="content">
+        Bitcoin
+        <div class="sub header">{{addr['bitcoin'][0]}}</div>
+    </div>
+</h2>
+<div class="ui horizontal divider">
+    Or
+</div>
+<h2 class="ui center aligned icon header">
+    <i class="monero icon"></i>
+    <div class="content">
+        Monero
+        <div class="sub header">{{addr['monero'][0]}}</div>
+    </div>
+</h2>
+</div>
+{% endblock %}
