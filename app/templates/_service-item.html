@@ -1,0 +1,55 @@
+<tr class="center aligned">
+    <td class="inverted violet">
+        <a href="{{item['url']}}">{{item['name']}}</a>
+        {% if item['verified'] %}
+        <span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up">
+        <i class="green shield alternate icon"></i>
+        </span>
+        {% endif %}
+        {% if item['registration'] and item['personalinfo'] %}
+        <span aria-label="Personal info required for account registration" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="user circle outline icon"></i>
+        </span>
+        {% endif %}
+        {% if item['registration'] and not item['personalinfo'] %}
+        <span aria-label="No personal info required for account registration" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="user secret icon"></i>
+        </span>
+        {% endif %}
+        {% if not item['registration'] %}
+        <span aria-label="No registration" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="user times icon"></i>
+        </span>
+        {% endif %}
+        {% if item['tor'] %}
+        <span aria-label="Tor available" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="violet bullseye icon"></i>
+        </span>
+        {% endif %}
+    </td>
+    <!--BTC?-->
+    {% if item['btc'] %}
+    <td>
+        <i class="green check icon"></i>
+        {% if item['lnn'] %}
+        <i class="blue bolt icon"></i>
+        {% endif %}
+    </td>
+    {% else %}
+    <td><i class="red close icon"></td>
+    {%endif%}
+
+    <!--XMR?-->
+    {% if item['xmr'] %}
+    <td><i class="green check icon"></i></td>
+    {% else %}
+    <td><i class="red close icon"></td>
+    {%endif%}
+
+    <!--Conditions?-->
+    {% if item['conditions'] != None %}
+    <td><span aria-label="{{item['conditions']}}" data-balloon-length="medium" data-balloon-pos="up"><i class="yellow attention icon"></i></span></td>
+    {% else %}
+    <td><i class="green icon close"></i></td>
+    {%endif%}
+</tr>

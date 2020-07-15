@@ -1,0 +1,91 @@
+<tr class="center aligned">
+    <td class="inverted violet">
+        <a href="{{item['url']}}">{{item['name']}}</a>
+        {% if item['verified'] %}
+        <span aria-label="Verified" data-balloon-length="small" data-balloon-pos="up">
+        <i class="green shield alternate icon"></i>
+        </span>
+        {% endif %}
+        {% if item['p2p'] %}
+        <span aria-label="P2P" data-balloon-length="small" data-balloon-pos="up">
+        <i class="grey handshake outline icon"></i>
+        </span>
+        {% endif %}
+        {% if item['custodial'] %}
+        <span aria-label="Custodial wallet" data-balloon-length="small" data-balloon-pos="up">
+        <i class="grey linkify icon"></i>
+        </span>
+        {% endif %}
+        {% if item['registration'] and item['personalinfo'] %}
+        <span aria-label="Personal info required for account registration" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="grey user circle outline icon"></i>
+        </span>
+        {% endif %}
+        {% if item['registration'] and not item['personalinfo'] %}
+        <span aria-label="No personal info required for account registration" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="grey user secret icon"></i>
+        </span>
+        {% endif %}
+        {% if not item['registration'] %}
+        <span aria-label="No registration" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="grey user times icon"></i>
+        </span>
+        {% endif %}
+        {% if item['mayKYC'] %}
+        <span aria-label="May require KYC" data-balloon-length="medium" data-balloon-pos="up">
+            <i class="grey eye icon"></i>
+        </span>
+        {% endif %}
+        {% if item['refunds'] %}
+        <span aria-label="Refunds without KYC" data-balloon-length="medium" data-balloon-pos="up">
+            <i class="yellow reply icon"></i>
+        </span>
+        {% endif %}
+        {% if item['tor'] %}
+        <span aria-label="Tor available" data-balloon-length="medium" data-balloon-pos="up">
+        <i class="violet bullseye icon"></i>
+        </span>
+        {% endif %}
+    </td>
+    <!--BTC?-->
+    {% if item['btc'] %}
+    <td><i class="green check icon"></i></td>
+    {% else %}
+    <td><i class="red close icon"></td>
+    {%endif%}
+
+    <!--XMR?-->
+    {% if item['xmr'] %}
+    <td><i class="green check icon"></i></td>
+    {% else %}
+    <td><i class="red close icon"></td>
+    {%endif%}
+
+    <!--Conditions?-->
+    {% if item['conditions'] != None %}
+    <td><span aria-label="{{item['conditions']}}" data-balloon-length="medium" data-balloon-pos="up"><i class="yellow attention icon"></i></span></td>
+    {% else %}
+    <td><i class="green icon close"></i></td>
+    {%endif%}
+
+    <!--Exchange?-->
+    {% if item['exchange'] %}
+    <td><i class="green check icon"></i></td>
+    {% else %}
+    <td><i class="red close icon"></td>
+    {%endif%}
+
+    <!--BUY?-->
+    {% if item['buy'] %}
+    <td>
+        <i class="green check icon"></i>
+        {% if item['cash'] %}
+        <span aria-label="Cash accepted" data-balloon-length="small" data-balloon-pos="up">
+            <i class="money bill alternate outline icon"></i>
+        </span>
+        {%endif%}
+    </td>
+    {% else %}
+    <td><i class="red close icon"></td>
+    {%endif%}
+</tr>

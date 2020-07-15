@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KYC, not me!</title>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='semantic/semantic.css') }}">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/responsive_table.css') }}">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/balloon.css') }}">
+
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.jpg')}}" type="image/x-icon">
+        <link rel="icon" href="{{ url_for('static', filename='favicon.jpg')}}" type="image/x-icon">
+    </head>
+    <body>
+        <div class="ui stackable menu">
+            <div class="item">
+            <img src="{{ url_for('static',filename='logo.png') }}">
+            </div>
+            <a href="{{ url_for('index') }}" class="item">Exchanges</a>
+            <a href="{{ url_for('services') }}" class="item">Services</a>
+            <a href="#" class="item disabled">Merchants</a>
+            <a href="{{ url_for('donate') }}" class="item">Donate</a>
+        </div>
+
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <div class="ui info message">
+                <div class="header">
+                    Information
+                </div>
+                <ul class="list">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            </ul>
+        {% endif %}
+        {% endwith %}
+        
+        {% block content %}{% endblock %}
+        
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    </body>
+</html>
