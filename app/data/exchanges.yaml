@@ -139,6 +139,26 @@ exchanges:
     refunds: False
     cash: True
 
+  - name: Boltz
+    url: https://boltz.exchange
+    comment: Privacy first, account-free crypto exchange.
+    # Main attributes
+    btc: True
+    xmr: False
+    conditions: 
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: True
+    mayKYC: False
+    refunds: False
+    cash: False
+
   - name: Liquality
     url: https://liquality.io/
     comment: Easy Peer-to-Peer Crypto Trading
