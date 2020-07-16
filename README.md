@@ -66,7 +66,7 @@ Contributions are very welcome. Any suggestion, recommendation, correction, idea
 Also, **active contributors** are wanted! I am alone with this and my time is limited.
 
 ### The project itself:
-I want the site to use as little JS as possible (as when I have some time I want to add a non-JS version plus a Tor mirror for the site), so all suggestions will be evaluated before being added. Also, I won't have any backend in the near future, only frontend. I may be adding backend at some point if the project grows.
+I want the site to use as little JS as possible (as when I have some time I want to add a non-JS version plus a Tor mirror for the site), so all suggestions will be evaluated before being added.
 
 [The list of changes can be found here](CHANGELOG.md)
 
