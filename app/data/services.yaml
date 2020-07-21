@@ -14,6 +14,20 @@ services:
     tor: False
     cash: True
 
+  - name: NiceVPS.net
+    url: https://nicevps.net/
+    comment: Uncensored bulletproof Hosting, VPS, VPN, Dedicated Servers, Anonymous No-KYC Domains
+    # Main attributes
+    btc: True
+    lnn: False
+    xmr: True
+    conditions:
+    # Side badges
+    verified: False
+    registration: True
+    personalinfo: False
+    tor: True
+    cash: True
 
   - name: DTMF
     url: https://dtmf.io/
