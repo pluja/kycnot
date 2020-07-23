@@ -25,7 +25,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: False
-    conditions: Some sellers may require KYC
+    conditions: Some sellers may require ID
     exchange: True
     buy: True
     # Side badges
@@ -45,7 +45,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: False
-    conditions: Some sellers may require KYC
+    conditions: Some sellers may require ID
     exchange: False
     buy: True
     # Side badges
@@ -105,7 +105,7 @@ exchanges:
     # Main attributes
     btc: False
     xmr: True
-    conditions: Some sellers (or service itself) may require KYC
+    conditions: May require KYC
     exchange: False
     buy: True
     # Side badges
@@ -125,7 +125,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: True
-    conditions: Some sellers (or service itself) may require KYC
+    conditions: May require KYC
     exchange: True
     buy: True
     # Side badges
