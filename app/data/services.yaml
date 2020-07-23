@@ -67,7 +67,7 @@ services:
     btc: True
     lnn: False
     xmr: True
-    conditions:
+    conditions: Limited customer service
     # Side badges
     verified: False
     registration: True
