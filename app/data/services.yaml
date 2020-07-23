@@ -32,12 +32,12 @@ services:
     
   - name: XMR.to
     url: https://xmr.to/
-    comment:
+    comment: Pay the world with Monero.
     # Main attributes
     btc: True
     lnn: False
     xmr: True
-    conditions: Lots of personal data required
+    conditions:
     # Side badges
     verified: True
     registration: False
