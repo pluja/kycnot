@@ -59,6 +59,21 @@ services:
     personalinfo: True
     tor: False
     cash: False
+
+  - name: NiceVPS.net
+    url: https://nicevps.net/
+    comment: Uncensored Hosting, VPS, VPN, Dedicated Servers, Anonymous No-KYC Domains
+    # Main attributes
+    btc: True
+    lnn: False
+    xmr: True
+    conditions:
+    # Side badges
+    verified: False
+    registration: True
+    personalinfo: False
+    tor: True
+    cash: False
   
   - name: LNN Stores
     url: https://lightningnetworkstores.com/
