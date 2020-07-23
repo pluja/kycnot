@@ -65,7 +65,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: True
-    conditions: Some sellers may require KYC
+    conditions: Some sellers may require ID
     exchange: True
     buy: True
     # Side badges
