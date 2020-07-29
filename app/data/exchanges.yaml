@@ -259,6 +259,26 @@ exchanges:
     refunds: False
     cash: False
 
+  - name: Xchange.me
+    url: https://xchange.me/
+    comment: Exchange cryptocurrency. Anonymously.
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions:
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: True
+    mayKYC: False
+    refunds: True
+    cash: False
+
   - name: Fixedfloat
     url: https://fixedfloat.com/
     comment: Lightning cryptocurrency exchange
