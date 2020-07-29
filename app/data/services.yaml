@@ -1,4 +1,4 @@
-services: 
+services:
   - name: Mullvad VPN
     url: https://mullvad.net/
     comment: Open source, fast and anonymous VPN
@@ -14,7 +14,6 @@ services:
     tor: False
     cash: True
 
-
   - name: DTMF
     url: https://dtmf.io/
     comment: Virtual phone numbers provider
@@ -29,7 +28,7 @@ services:
     personalinfo: False
     tor: False
     cash: False
-    
+
   - name: XMR.to
     url: https://xmr.to/
     comment: Pay the world with Monero.
@@ -74,7 +73,7 @@ services:
     personalinfo: False
     tor: True
     cash: False
-  
+
   - name: LNN Stores
     url: https://lightningnetworkstores.com/
     comment: Comprehensive venue of stores that support BTC LNN payments.

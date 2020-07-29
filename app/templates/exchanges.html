@@ -3,8 +3,8 @@
 {% block content %}
 <div class="ui container">
     <h2 class="ui center aligned icon header">
-        <i class="circular globe icon"></i>
-        Services
+        <i class="circular exchange icon"></i>
+        Exchanges
     </h2>
 
 
@@ -14,14 +14,19 @@
             <th>Name</th>
             <th>BTC</th>
             <th>XMR</th>
-            <th>Concerns</th>
+            <th>Conditions</th>
+            <th>Exchange</th>
+            <th>Buy</th>
         </tr>
         </thead>
         <tbody>
         {% for item in list|sort(attribute='name') %}
-        {% include '_service-item.html' %}
+        {% include '_exchange-item.html' %}
         {% endfor %}
         </tbody>
     </table>
+
+    <a href="https://github.com/pluja/kycnot/issues/15" target="_blank">Add new Exchange</a>
+
 </div>
 {% endblock %}

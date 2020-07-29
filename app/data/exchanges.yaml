@@ -1,4 +1,24 @@
-exchanges: 
+exchanges:
+  - name: SwapSwop
+    url: https://swapswop.io/
+    comment: Simple and secure crypto crypto exchange
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: May require KYC if suspicious
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: True
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: True
+    refunds: False
+    cash: False
+
   - name: TradeOgre
     url: https://tradeogre.com/
     comment: Simple exchange. No KYC.
@@ -6,7 +26,7 @@ exchanges:
     btc: True
     xmr: True
     conditions: Funds will operate on custodial wallet.
-    exchange: True
+    exchange: Trues
     buy: False
     # Side badges
     verified: True
@@ -18,7 +38,7 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
-  
+
   - name: HodlHodl
     url: https://hodlhodl.com/
     comment: Exchange P2P worldwide
@@ -38,7 +58,7 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: True
-  
+
   - name: LocalCryptos
     url: https://localcryptos.org/
     comment: The non-custodial crypto marketplace.
@@ -85,7 +105,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: True
-    conditions: 
+    conditions:
     exchange: True
     buy: False
     # Side badges
@@ -145,7 +165,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: False
-    conditions: 
+    conditions:
     exchange: True
     buy: False
     # Side badges
@@ -285,7 +305,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: True
-    conditions: 
+    conditions:
     exchange: True
     buy: False
     # Side badges
