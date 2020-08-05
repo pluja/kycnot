@@ -239,26 +239,6 @@ exchanges:
     refunds: False
     cash: False
 
-  - name: Morphtoken
-    url: https://morphtoken.com/
-    comment: Exchange Crypto. Easily.
-    # Main attributes
-    btc: True
-    xmr: True
-    conditions: May reject transactions at any time for any reason.
-    exchange: True
-    buy: False
-    # Side badges
-    verified: True
-    p2p: False
-    custodial: False
-    registration: False
-    personalinfo: False
-    tor: False
-    mayKYC: False
-    refunds: False
-    cash: False
-
   - name: Xchange.me
     url: https://xchange.me/
     comment: Exchange cryptocurrency. Anonymously.
@@ -277,6 +257,46 @@ exchanges:
     tor: True
     mayKYC: False
     refunds: True
+    cash: False
+
+  - name: ChangeNow
+    url: https://changenow.io/
+    comment: Fast Crypto Swaps, Free of Custody
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: If KYC, reserves the right to submit received materials to legal authorities
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: True
+    refunds: True
+    cash: False
+
+  - name: Morphtoken
+    url: https://morphtoken.com/
+    comment: Exchange Crypto. Easily.
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: May reject transactions at any time for any reason.
+    exchange: True
+    buy: False
+    # Side badges
+    verified: True
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: False
+    refunds: False
     cash: False
 
   - name: Fixedfloat
