@@ -1,8 +1,18 @@
+FLASK_IP="127.0.0.1"
+FLASK_PORT="5000"
+if ![ -d "venv" ]; then
+    python3 -m venv venv
+    pip3 install -r requirements.txt
+fi
+
 source venv/bin/activate
 flask run&
-httrack --mirror http://127.0.0.1:5000/
+
+if [ -d "public" ]; then
+    rm -rf public
+fi
+httrack --mirror "http://${FLASK_IP}:${FLASK_PORT}/"
 rm -rf *.gif *.html hts-*
-mv 127.0.0.1_5000 public
+mv ${FLASK_IP}_${FLASK_PORT} public
 killall flask
 deactivate
-
