@@ -20,9 +20,11 @@
       </tr>
     </thead>
     <tbody>
-      {% for item in list %}
-        {% include '_exchange-item.html' %}
-      {% endfor %}
+      {% if list %}
+        {% for item in list %}
+          {% include '_exchange-item.html' %}
+        {% endfor %}
+      {% endif %}
     </tbody>
 </table>
 </div>
