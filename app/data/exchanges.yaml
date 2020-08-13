@@ -40,7 +40,7 @@ exchanges:
     cash: True
   
   - name: LocalCryptos
-    url: https://localcryptos.org/
+    url: https://localcryptos.com/
     comment: The non-custodial crypto marketplace.
     # Main attributes
     btc: True
