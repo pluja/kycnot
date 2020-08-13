@@ -60,6 +60,21 @@ services:
     tor: False
     cash: False
 
+  - name: Bitrefill
+    url: https://www.bitrefill.com/
+    comment: Purchase Gift Cards or Mobile Refills from more than 1650 businesses in 170 countries.
+    # Main attributes
+    btc: True
+    lnn: True
+    xmr: False
+    conditions:
+    # Side badges
+    verified: True
+    registration: True
+    personalinfo: False
+    tor: False
+    cash: False
+
   - name: NiceVPS.net
     url: https://nicevps.net/
     comment: Uncensored Hosting, VPS, VPN, Dedicated Servers, Anonymous No-KYC Domains
