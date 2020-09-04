@@ -139,6 +139,26 @@ exchanges:
     refunds: False
     cash: True
 
+  - name: Morphtoken
+    url: https://morphtoken.com/
+    comment: Exchange Crypto. Easily.
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: May reject transactions at any time for any reason.
+    exchange: True
+    buy: False
+    # Side badges
+    verified: True
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: False
+    refunds: False
+    cash: False
+
   - name: Boltz
     url: https://boltz.exchange
     comment: Privacy first, account-free crypto exchange.
@@ -279,17 +299,17 @@ exchanges:
     refunds: True
     cash: False
 
-  - name: Morphtoken
-    url: https://morphtoken.com/
-    comment: Exchange Crypto. Easily.
+  - name: Fixedfloat
+    url: https://fixedfloat.com/
+    comment: Lightning cryptocurrency exchange
     # Main attributes
     btc: True
     xmr: True
-    conditions: May reject transactions at any time for any reason.
+    conditions: 
     exchange: True
     buy: False
     # Side badges
-    verified: True
+    verified: False
     p2p: False
     custodial: False
     registration: False
@@ -299,13 +319,13 @@ exchanges:
     refunds: False
     cash: False
 
-  - name: Fixedfloat
-    url: https://fixedfloat.com/
-    comment: Lightning cryptocurrency exchange
+  - name: Exolix
+    url: https://exolix.com/
+    comment: Exchange fixed rate, safely, anonymously and with no limits
     # Main attributes
     btc: True
     xmr: True
-    conditions: 
+    conditions: Reserves right to suspend account
     exchange: True
     buy: False
     # Side badges
