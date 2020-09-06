@@ -31,7 +31,7 @@ Bitcoin because is the biggest, with the most market cap, most adoption and most
 I will try to answer some of the most common questions.
 
 #### Why is "X" not listed?
-There my be many reasons to this question. For now, I'm alone with this project and my time is limited and before adding a Exchange/Merchant/Service I need to make some investigation in order to be sure that it compiles with the NON-KYC requirements. So one of the reasons, if it was suggested is that maybe I haven't had the time to investigate on it. If you're patient I promise I will be investigating all the suggerences I recieve.
+There my be many reasons to this question. For now, I'm alone with this project and my time is limited and before adding a Exchange/Merchant/Service I need to make some investigation in order to be sure that it compiles with the NON-KYC requirements. So one of the reasons, if it was suggested is that maybe I haven't had the time to investigate on it. If you're patient I promise I will be investigating all the suggestions I recieve.
 
 #### Will *this* feature be implemented?
 Again, I'm alone with this. I would love to be implementing a lot of thing I have in mind but time is limited and I am not fulltime on this, in fact I have a job and several personal projects at the moment. The time I am dedicating to kycnot.me is limited and I would really like to be able to dedicate it much more time.
