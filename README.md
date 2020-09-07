@@ -73,8 +73,8 @@ I want the site to use as little JS as possible (as when I have some time I want
 **FYI: I'm not a web developer.**
 
 ### Donate
-* Bitcoin: `3AoxCVyLMhSBoGSFZn33FrePxU6CMzKDTH`
-* Monero: `84rQVqquSjXFCCcRudKbsWMRXQnmVwPYJeLLQo8A4SiTEEPSjaydNCvJxAziYTYBnvEUkqgxecPjCak33Z4NT2vLPrePwGA`
+* Bitcoin: `bc1q5y3g907ju0pt40me7dr9fy5uhfhfgfv9k3kh3z`
+* Monero: `48nQGAXaC6eFK2Wo7SVVyF9xL333gDHjzdmRL3XETEqbU3w4CcKjjHVUZPU4W3dg1oJL8be3iGtUAQsgV88dzbS7QNpZjC2`
 
 ## Mentioned in:
 KYCNOT.me has been mentioned in:
