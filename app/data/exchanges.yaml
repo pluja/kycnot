@@ -219,6 +219,26 @@ exchanges:
     refunds: False
     cash: False
 
+  - name: Sideshift
+    url: https://sideshift.ai/
+    comment: No Sign Up Crypto Exchange
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions:
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: False
+    refunds: False
+    cash: False
+
   - name: SimpleSwap
     url: https://simpleswap.io/
     comment: Free from sign-up, limits, complications
@@ -298,6 +318,7 @@ exchanges:
     mayKYC: True
     refunds: True
     cash: False
+
 
   - name: Fixedfloat
     url: https://fixedfloat.com/
