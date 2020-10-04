@@ -339,23 +339,3 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
-
-  - name: Exolix
-    url: https://exolix.com/
-    comment: Exchange fixed rate, safely, anonymously and with no limits
-    # Main attributes
-    btc: True
-    xmr: True
-    conditions: Reserves right to suspend account
-    exchange: True
-    buy: False
-    # Side badges
-    verified: False
-    p2p: False
-    custodial: False
-    registration: False
-    personalinfo: False
-    tor: False
-    mayKYC: False
-    refunds: False
-    cash: False
