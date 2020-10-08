@@ -339,3 +339,24 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
+
+
+  - name: swap.lightning-network.ro
+    url: https://swap.lightning-network.ro/
+    comment: Instant cryptocoin swap
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: 
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: False
+    refunds: False
+    cash: False
