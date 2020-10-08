@@ -1,24 +1,4 @@
 exchanges: 
-  - name: TradeOgre
-    url: https://tradeogre.com/
-    comment: Simple exchange. No KYC.
-    # Main attributes
-    btc: True
-    xmr: True
-    conditions: Funds will operate on custodial wallet.
-    exchange: True
-    buy: False
-    # Side badges
-    verified: True
-    p2p: True
-    custodial: True
-    registration: True
-    personalinfo: False
-    tor: False
-    mayKYC: False
-    refunds: False
-    cash: False
-  
   - name: HodlHodl
     url: https://hodlhodl.com/
     comment: Exchange P2P worldwide
@@ -278,6 +258,26 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
+    
+  - name: swap.lightning-network.ro
+    url: https://swap.lightning-network.ro/
+    comment: Instant cryptocoin swap
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: 
+    exchange: True
+    buy: False
+    # Side badges
+    verified: True
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: False
+    refunds: False
+    cash: False
 
   - name: Xchange.me
     url: https://xchange.me/
@@ -319,6 +319,26 @@ exchanges:
     refunds: True
     cash: False
 
+  - name: TradeOgre
+    url: https://tradeogre.com/
+    comment: Simple exchange. No KYC.
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: Funds will operate on custodial wallet.
+    exchange: True
+    buy: False
+    # Side badges
+    verified: True
+    p2p: True
+    custodial: True
+    registration: True
+    personalinfo: False
+    tor: False
+    mayKYC: False
+    refunds: False
+    cash: False
+
 
   - name: Fixedfloat
     url: https://fixedfloat.com/
@@ -339,3 +359,4 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
+
