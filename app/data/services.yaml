@@ -104,3 +104,18 @@ services:
     personalinfo: False
     tor: False
     cash: False
+    
+  - name: SatoshiVPN
+    url: https://satoshivpn.com/
+    comment: Private, anonymous VPN servers.
+    # Main attributes
+    btc: True
+    lnn: False
+    xmr: False
+    conditions: None
+    # Side badges
+    verified: False
+    registration: False
+    personalinfo: False
+    tor: False
+    cash: False
