@@ -1,4 +1,44 @@
 exchanges: 
+  - name: Bity
+    url: https://bity.com/
+    comment: Buy Crypto with SEPA, no-kyc
+    # Main attributes
+    btc: True
+    xmr: False
+    conditions: Amount over 5000 CHF may require ID
+    exchange: False
+    buy: True
+    # Side badges
+    verified: True
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: True
+    refunds: True
+    cash: True
+    
+  - name: Ramp
+    url: https://ramp.network/
+    comment: Buy Crypto with SEPA, no-kyc
+    # Main attributes
+    btc: True
+    xmr: False
+    conditions: Amount over 1000€ may require ID
+    exchange: False
+    buy: True
+    # Side badges
+    verified: True
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: True
+    refunds: True
+    cash: True
+  
   - name: HodlHodl
     url: https://hodlhodl.com/
     comment: Exchange P2P worldwide
