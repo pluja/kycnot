@@ -1,0 +1,8 @@
+utils:
+  - name: Coin Dance
+    url: https://coin.dance/
+    description: Community-driven Bitcoin statistics and services.
+  
+  - name: Learn me a Bitcoin
+    url: https://learnmeabitcoin.com/
+    description: How does Bitcoin work?

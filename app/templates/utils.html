@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="ui container">
+<h2 class="ui center aligned icon header">
+    <i class="wrench icon"></i>
+    Utils
+</h2>
+
+
+<table class="ui celled table">
+    <thead>
+      <tr class="center aligned">
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% if list %}
+        {% for item in list %}
+          {% include '_utils-item.html' %}
+        {% endfor %}
+      {% endif %}
+    </tbody>
+</table>
+</div>
+{% endblock %}

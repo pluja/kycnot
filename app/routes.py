@@ -23,6 +23,12 @@ def services():
         data = yaml.safe_load(stream)
     return render_template('services.html', list=data['services'])
 
+@app.route('/utils')
+def utils():
+    with open("app/data/utils.yaml", 'r') as stream:
+        data = yaml.safe_load(stream)
+    return render_template('utils.html', list=data['utils'])
+
 @app.route('/about')
 def donate():
     with open("app/data/donations.yaml", 'r') as stream:
