@@ -59,26 +59,6 @@ exchanges:
     refunds: False
     cash: True
 
-  - name: XMR.to
-    url: https://xmr.to/
-    comment: Pay the world with Monero.
-    # Main attributes
-    btc: True
-    xmr: True
-    conditions: 
-    exchange: True
-    buy: False
-    # Side badges
-    verified: True
-    p2p: False
-    custodial: False
-    registration: False
-    personalinfo: False
-    tor: False
-    mayKYC: False
-    refunds: False
-    cash: False
-
   - name: Localmonero
     url: https://localmonero.co/
     comment: Buy Monero the private way.
