@@ -45,21 +45,6 @@ services:
     tor: False
     cash: False
 
-  - name: XMR.to
-    url: https://xmr.to/
-    comment: Pay the world with Monero.
-    # Main attributes
-    btc: True
-    lnn: False
-    xmr: True
-    conditions:
-    # Side badges
-    verified: True
-    registration: False
-    personalinfo: False
-    tor: False
-    cash: False
-
   - name: Cryptoho.st
     url: https://cryptoho.st/
     comment: Blazing fast VPS and Hosting
