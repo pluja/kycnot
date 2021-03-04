@@ -72,9 +72,9 @@ I want the site to use as little JS as possible (as when I have some time I want
 
 **FYI: I'm not a web developer.**
 
-### Donate
-* Bitcoin: `bc1q5y3g907ju0pt40me7dr9fy5uhfhfgfv9k3kh3z`
-* Monero: `48nQGAXaC6eFK2Wo7SVVyF9xL333gDHjzdmRL3XETEqbU3w4CcKjjHVUZPU4W3dg1oJL8be3iGtUAQsgV88dzbS7QNpZjC2`
+### [Donate](https://github.com/pluja/pluja/blob/main/SUPPORT.md)
+First of all, thank you! All donations will be used to mantain the rented servers and domain names of my projects.
+* [Click here to see the donation options!](https://github.com/pluja/pluja/blob/main/SUPPORT.md)
 
 ## Mentioned in:
 KYCNOT.me has been mentioned in:
