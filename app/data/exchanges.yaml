@@ -1,4 +1,4 @@
-exchanges: 
+exchanges:
   - name: HodlHodl
     url: https://hodlhodl.com/
     comment: Exchange P2P worldwide
@@ -18,7 +18,7 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: True
-  
+
   - name: LocalCryptos
     url: https://localcryptos.com/
     comment: The non-custodial crypto marketplace.
@@ -58,6 +58,26 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: True
+
+  - name: Kilos Swap
+    url: http://dnmugu4755642434.onion/coinswap
+    comment: Tor based full privacy exchange.
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions:
+    exchange: True
+    buy: False
+    # Side badges
+    verified: True
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: True
+    mayKYC: False
+    refunds: False
+    cash: False
 
   - name: Localmonero
     url: https://localmonero.co/
@@ -125,7 +145,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: False
-    conditions: 
+    conditions:
     exchange: True
     buy: False
     # Side badges
@@ -238,14 +258,14 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
-    
+
   - name: swap.lightning-network.ro
     url: https://swap.lightning-network.ro/
     comment: Instant cryptocoin swap
     # Main attributes
     btc: True
     xmr: True
-    conditions: 
+    conditions:
     exchange: True
     buy: False
     # Side badges
@@ -326,7 +346,7 @@ exchanges:
     # Main attributes
     btc: True
     xmr: True
-    conditions: 
+    conditions:
     exchange: True
     buy: False
     # Side badges
@@ -339,4 +359,3 @@ exchanges:
     mayKYC: False
     refunds: False
     cash: False
-
