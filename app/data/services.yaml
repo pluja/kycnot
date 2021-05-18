@@ -29,22 +29,6 @@ services:
     tor: False
     cash: True
 
-
-  - name: DTMF
-    url: https://dtmf.io/
-    comment: Virtual phone numbers provider
-    # Main attributes
-    btc: True
-    lnn: True
-    xmr: True
-    conditions:
-    # Side badges
-    verified: True
-    registration: True
-    personalinfo: False
-    tor: False
-    cash: False
-
   - name: Cryptoho.st
     url: https://cryptoho.st/
     comment: Blazing fast VPS and Hosting
@@ -104,7 +88,7 @@ services:
     personalinfo: False
     tor: False
     cash: False
-  
+
   - name: Swapzone
     url: https://swapzone.io/
     comment: Collection of rates, speed, verification rules, and user feedback
