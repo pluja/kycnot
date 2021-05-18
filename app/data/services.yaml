@@ -105,6 +105,21 @@ services:
     tor: False
     cash: False
 
+  - name: Njal.la
+    url: https://njal.la/
+    comment: Private Hosting, VPS, Domains and VPN.
+    # Main attributes
+    btc: True
+    lnn: False
+    xmr: True
+    conditions:
+    # Side badges
+    verified: True
+    registration: True
+    personalinfo: False
+    tor: True
+    cash: False
+
   - name: NiceVPS.net
     url: https://nicevps.net/
     comment: Uncensored Hosting, VPS, VPN and Domains
