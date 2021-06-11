@@ -1,6 +1,6 @@
 # [KYC, NOT ME](https://kycnot.me)
 
-# Site temorary down for mainteinance. Will be back online in a week (06/11)
+# Site temporary down for maintenance. Will be back online in a week (06/11)
 
 <p align="center"> <img width="150" src="app/static/logo.png"> </img></p> 
 <p align="center"> Don't get KYC'ed </p>
