@@ -1,6 +1,8 @@
 # [KYC, NOT ME](https://kycnot.me)
 
-# Site temporary down for maintenance. Will be back online in a week (06/11)
+# Site temporary down for redesign. WILL BE BACK SOON.
+## Redesign Snippet:
+![](/misc/img/kycnotV2.png)
 
 <p align="center"> <img width="150" src="app/static/logo.png"> </img></p> 
 <p align="center"> Don't get KYC'ed </p>
