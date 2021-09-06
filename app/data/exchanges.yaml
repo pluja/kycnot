@@ -239,6 +239,26 @@ exchanges:
     refunds: False
     cash: False
 
+  - name: SwapSwop
+    url: https://swapswop.io/
+    comment: SwapSwop is a safe and legal cryptocurrency exchange platform
+    # Main attributes
+    btc: True
+    xmr: True
+    conditions: May require KYC if suspicious
+    exchange: True
+    buy: False
+    # Side badges
+    verified: False
+    p2p: False
+    custodial: False
+    registration: False
+    personalinfo: False
+    tor: False
+    mayKYC: True
+    refunds: True
+    cash: False
+
   - name: Godex
     url: https://godex.io/
     comment: Exchange anonymously with guaranteed fixed rate
